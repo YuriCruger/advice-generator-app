@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <title>Advice generator app</title>
+
+</head>
+
+<body class="bg-dark-blue flex items-center justify-center h-screen">
+
+  <div class="relative bg-dark-grayish-blue h-[330px] w-[540px] rounded-2xl text-center py-14 px-14 font-manrope m-4">
+    <p id="advice" class="text-neon-green font-extralight tracking-widest mb-6">ADVICE #</p>
+    <div class="h-32 overflow-y-auto">
+      <p id="message" class="whitespace-normal text-2xl text-light-cyan"></p>
+    </div>
+    <img src="../images/pattern-divider-desktop.svg" alt="divider" class="m-auto">
+    <button id="dice_btn" class="bg-neon-green h-14 w-14 rounded-full absolute left-1/2 -bottom-14 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
+      <img src="../images/icon-dice.svg" alt="dice" class="h-6">
+    </button>
+  </div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
